@@ -1,0 +1,356 @@
+{
+	"info": {
+		"_postman_id": "4cc7de72-0a36-4cc9-baf3-9b93554bf484",
+		"name": "News Aggregator API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38868948",
+		"_collection_link": "https://www.postman.com/shirisha1002/workspace/news-aggregator/collection/38868948-4cc7de72-0a36-4cc9-baf3-9b93554bf484?action=share&source=collection_link&creator=38868948"
+	},
+	"item": [
+		{
+			"name": "articles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/articles",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"articles"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "articles",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/articles",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"articles"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.4 Python/3.12.5"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 13 Oct 2024 13:11:02 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "5658"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Category\": \"General\",\n        \"Publication Date\": \"2024-10-13\",\n        \"Source\": \"BBC\",\n        \"Summary\": \"In 1968, an Indian Air Force plane with 102 people went missing. For many years, their fate was a mystery.\",\n        \"Title\": \"Closure for family as body found 56 years after India plane crash\",\n        \"URL\": \"/news/articles/cly5z15g15no\",\n        \"id\": 1\n    },\n    {\n        \"Category\": \"Technology\",\n        \"Publication Date\": \"2024-10-13\",\n        \"Source\": \"BBC\",\n        \"Summary\": \"Chinese authorities have been cracking down on businesses from real estate to technology to finance.\",\n        \"Title\": \"How Chinaâ\\u0080\\u0099s crackdown turned finance high-flyers into â\\u0080\\u0098ratsâ\\u0080\\u0099\",\n        \"URL\": \"/news/articles/crl8xee75wgo\",\n        \"id\": 2\n    },\n    {\n        \"Category\": \"General\",\n        \"Publication Date\": \"2024-10-13\",\n        \"Source\": \"BBC\",\n        \"Summary\": \"In 1968, an Indian Air Force plane with 102 people went missing. For many years, their fate was a mystery.\",\n        \"Title\": \"Closure for family as body found 56 years after India plane crash\",\n        \"URL\": \"/news/articles/cly5z15g15no\",\n        \"id\": 3\n    },\n    {\n        \"Category\": \"General\",\n        \"Publication Date\": \"2024-10-13\",\n        \"Source\": \"BBC\",\n        \"Summary\": \"Nihon Hidankyo, a group of survivors of Hiroshima and Nagasaki, is recognised for its work to rid the world of nuclear weapons.\",\n        \"Title\": \"Japanese atomic bomb survivors win Nobel Peace Prize\",\n        \"URL\": \"/news/articles/cy5y23qgx0qo\",\n        \"id\": 4\n    },\n    {\n        \"Category\": \"General\",\n        \"Publication Date\": \"2024-10-13\",\n        \"Source\": \"BBC\",\n        \"Summary\": \"Ratan Tata's half-brother Noel Tata is the new chairman of the influential Tata Trusts.\",\n        \"Title\": \"Tata leadership to remain in the family\",\n        \"URL\": \"/news/articles/crl8p3x5pp0o\",\n        \"id\": 5\n    },\n    {\n        \"Category\": \"Technology\",\n        \"Publication Date\": \"2024-10-13\",\n        \"Source\": \"BBC\",\n        \"Summary\": \"Chinese authorities have been cracking down on businesses from real estate to technology to finance.\",\n        \"Title\": \"How Chinaâ\\u0080\\u0099s crackdown turned finance high-flyers into â\\u0080\\u0098ratsâ\\u0080\\u0099\",\n        \"URL\": \"/news/articles/crl8xee75wgo\",\n        \"id\": 6\n    },\n    {\n        \"Category\": \"Sports\",\n        \"Publication Date\": \"2024-10-13\",\n        \"Source\": \"BBC\",\n        \"Summary\": \"Han Kang is the first South Korean winner and only the 18th woman to win the Nobel literature prize.\",\n        \"Title\": \"South Korea's Han Kang wins Nobel Literature Prize \",\n        \"URL\": \"/news/articles/c206djljel1o\",\n        \"id\": 7\n    },\n    {\n        \"Category\": \"General\",\n        \"Publication Date\": \"2024-10-13\",\n        \"Source\": \"BBC\",\n        \"Summary\": \"The 18-year-old has become the youngest person to summit all 14 of the world's 8,000m peaks.\",\n        \"Title\": \"Teen breaks record by climbing Earth's highest peaks\",\n        \"URL\": \"/news/articles/c869y6qx6e4o\",\n        \"id\": 8\n    },\n    {\n        \"Category\": \"General\",\n        \"Publication Date\": \"2024-10-13\",\n        \"Source\": \"BBC\",\n        \"Summary\": \"A search has been underway for Tom Phillips since he took his three children from their home in 2021.\",\n        \"Title\": \"Fugitive father seen with children in NZ wilderness for first time in years\",\n        \"URL\": \"/news/articles/czegx545pexo\",\n        \"id\": 9\n    },\n    {\n        \"Category\": \"Sports\",\n        \"Publication Date\": \"2024-10-13\",\n        \"Source\": \"BBC\",\n        \"Summary\": \"A fan on his honeymoon posed with a banner criticising Valencia's billionaire owner Peter Lim.\",\n        \"Title\": \"Singapore detains Spanish newlyweds over football protest\",\n        \"URL\": \"/news/articles/c62m7xrd2z0o\",\n        \"id\": 10\n    },\n    {\n        \"Category\": \"General\",\n        \"Publication Date\": \"2024-10-13\",\n        \"Source\": \"BBC\",\n        \"Summary\": \"It comes as tensions between the Koreas are at their highest point in years.\",\n        \"Title\": \"North Korea says it will cut off all roads to the South\",\n        \"URL\": \"/news/articles/cwy9xde4l21o\",\n        \"id\": 11\n    },\n    {\n        \"Category\": \"General\",\n        \"Publication Date\": \"2024-10-13\",\n        \"Source\": \"BBC\",\n        \"Summary\": \"The former Tata boss's audacious risk-taking saw his firm swallow up a host of iconic foreign brands.\",\n        \"Title\": \"Starbucks, Tetley, Jaguar Land Rover: Remembering Ratan Tata's global ambitions\",\n        \"URL\": \"/news/articles/c5y8jp386lno\",\n        \"id\": 12\n    },\n    {\n        \"Category\": \"General\",\n        \"Publication Date\": \"2024-10-13\",\n        \"Source\": \"BBC\",\n        \"Summary\": \"Andrew Comyn \\\"Sandy\\\" Irvine was climbing Everest in June 1924 when he and his partner vanished. \",\n        \"Title\": \"Family tells of 'relief' after 1924 climberâ\\u0080\\u0099s foot found on Everest\",\n        \"URL\": \"/news/articles/cy0g2p47xd5o\",\n        \"id\": 13\n    },\n    {\n        \"Category\": \"General\",\n        \"Publication Date\": \"2024-10-13\",\n        \"Source\": \"BBC\",\n        \"Summary\": \"Kolkata's largest festival, Durga Puja, is unfolding amid some of the cityâ\\u0080\\u0099s most fervent protests in years.\",\n        \"Title\": \"Art becomes outrage: Kolkata festival confronts crime against female doctor\",\n        \"URL\": \"/news/articles/c1wnzrq88g2o\",\n        \"id\": 14\n    },\n    {\n        \"Category\": \"General\",\n        \"Publication Date\": \"2024-10-13\",\n        \"Source\": \"BBC\",\n        \"Summary\": \"The activist is producing a film about South Korea's real-life mermaids, the haenyeo. \",\n        \"Title\": \"How South Korea's 'real-life mermaids' made Malala want to learn to swim \",\n        \"URL\": \"/news/articles/c0r8gze5wv4o\",\n        \"id\": 15\n    },\n    {\n        \"Category\": \"General\",\n        \"Publication Date\": \"2024-10-13\",\n        \"Source\": \"BBC\",\n        \"Summary\": \"The businessman led a conglomerate of more than 100 companies, employing some 660,000 people.\",\n        \"Title\": \"Obituary: Ratan Tata, the 'modest' Indian tycoon\",\n        \"URL\": \"/news/articles/cd11lz4vpr7o\",\n        \"id\": 16\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "articles/{id}",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/articles/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"articles",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Id=5",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/articles/5",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"articles",
+								"5"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.4 Python/3.12.5"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 13 Oct 2024 13:27:06 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "292"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"Category\": \"General\",\n    \"Publication Date\": \"2024-10-13\",\n    \"Source\": \"BBC\",\n    \"Summary\": \"Ratan Tata's half-brother Noel Tata is the new chairman of the influential Tata Trusts.\",\n    \"Title\": \"Tata leadership to remain in the family\",\n    \"URL\": \"/news/articles/crl8p3x5pp0o\",\n    \"id\": 5\n}"
+				},
+				{
+					"name": "Id=1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/articles/1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"articles",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.4 Python/3.12.5"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 13 Oct 2024 13:27:59 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "337"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"Category\": \"General\",\n    \"Publication Date\": \"2024-10-13\",\n    \"Source\": \"BBC\",\n    \"Summary\": \"In 1968, an Indian Air Force plane with 102 people went missing. For many years, their fate was a mystery.\",\n    \"Title\": \"Closure for family as body found 56 years after India plane crash\",\n    \"URL\": \"/news/articles/cly5z15g15no\",\n    \"id\": 1\n}"
+				}
+			]
+		},
+		{
+			"name": "search/keyword",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/search?keyword=TATA",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "keyword",
+							"value": "TATA"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "search/keyword",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/search?keyword=bjp",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "keyword",
+									"value": "bjp"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.4 Python/3.12.5"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 13 Oct 2024 13:16:39 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "680"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Category\": \"General\",\n        \"Publication Date\": \"2024-10-13\",\n        \"Source\": \"BBC\",\n        \"Summary\": \"Ratan Tata's half-brother Noel Tata is the new chairman of the influential Tata Trusts.\",\n        \"Title\": \"Tata leadership to remain in the family\",\n        \"URL\": \"/news/articles/crl8p3x5pp0o\",\n        \"id\": 5\n    },\n    {\n        \"Category\": \"General\",\n        \"Publication Date\": \"2024-10-13\",\n        \"Source\": \"BBC\",\n        \"Summary\": \"The former Tata boss's audacious risk-taking saw his firm swallow up a host of iconic foreign brands.\",\n        \"Title\": \"Starbucks, Tetley, Jaguar Land Rover: Remembering Ratan Tata's global ambitions\",\n        \"URL\": \"/news/articles/c5y8jp386lno\",\n        \"id\": 12\n    }\n]"
+				},
+				{
+					"name": "BJP",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/search?keyword=bjp",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "keyword",
+									"value": "bjp"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.4 Python/3.12.5"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 13 Oct 2024 13:16:59 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "3"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "[]"
+				}
+			]
+		}
+	]
+}
