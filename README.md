@@ -17,7 +17,7 @@ This project is a news aggregator that scrapes articles, categorizes them using 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/news-aggregator.git
+   git clone https://github.com/{yourusername}/news-aggregator.git
    cd news-aggregator
    ```
 
@@ -37,10 +37,10 @@ This project is a news aggregator that scrapes articles, categorizes them using 
 - **GET /search**: Search articles by keywords.
 
 ## Usage Examples
-- Retrieve all articles: `GET http://127.0.0.1:8000/articles`
-- Retrieve articles by category: `GET http://127.0.0.1:8000/articles?category=Politics`
-- Retrieve a specific article: `GET http://127.0.0.1:8000/articles/1`
-- Search articles: `GET http://127.0.0.1:8000/search?keyword=BJP`
+- Retrieve all articles: `GET http://127.0.0.1:5000/articles`
+- Retrieve articles by category: `GET http://127.0.0.1:5000/articles?category=Politics`
+- Retrieve a specific article: `GET http://127.0.0.1:5000/articles/1`
+- Search articles: `GET http://127.0.0.1:5000/search?keyword=BJP`
 
 ## Postman Collection
 Import the `postman_collection.json` file into Postman to test the API endpoints.
