@@ -243,7 +243,7 @@
 			},
 			"response": [
 				{
-					"name": "search/keyword",
+					"name": "TATA",
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
