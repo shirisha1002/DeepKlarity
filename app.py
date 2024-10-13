@@ -29,7 +29,6 @@ def get_article(id):
         else:
             print("ID column not found in the dataset")
             abort(500, description="ID column not found in the dataset")
-
         
 # Load the articles from the CSV file
 df = pd.read_csv('news_articles.csv')
